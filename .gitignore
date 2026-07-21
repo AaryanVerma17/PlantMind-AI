@@ -1,0 +1,24 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.env
+
+# Node
+node_modules/
+dist/
+
+# Data (regenerated at runtime)
+data/uploads/*
+data/vectorstore/*
+data/reports/*
+!data/uploads/.gitkeep
+!data/vectorstore/.gitkeep
+!data/reports/.gitkeep
+
+# OS
+.DS_Store
+
+# Archives / bundles
+*.rar
+*.zip
